@@ -1,4 +1,4 @@
-FROM sbtscala/scala-sbt:eclipse-temurin-jammy-21.0.5_11_1.10.7_2.13.16 AS builder
+FROM sbtscala/scala-sbt:eclipse-temurin-jammy-21.0.5_11_1.10.5_2.13.15 AS builder
 WORKDIR /src
 COPY build.sbt ./
 COPY project ./project
