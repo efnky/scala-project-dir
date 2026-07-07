@@ -8,6 +8,3 @@ COPY build.sbt ./
 RUN sbt update
 COPY . .
 RUN sbt compile
-```
-
-UNKNOWN_STACK
